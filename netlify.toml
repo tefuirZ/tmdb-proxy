@@ -1,0 +1,10 @@
+[build]
+  # 如果你有前端构建步骤，可以在这里指定
+  # command = "npm run build"
+  # publish = "dist" # 你的前端构建输出目录
+
+[functions]
+  # 你的 Netlify Functions 所在的目录
+  directory = "functions"
+  # 可选：如果你的函数需要特定的 Node.js 版本，可以在这里指定
+  # node_bundler = "esbuild" # Netlify 的默认打包器通常是 esbuild

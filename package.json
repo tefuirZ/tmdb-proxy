@@ -1,0 +1,18 @@
+{
+    "name": "tmdb-proxy-netlify",
+    "version": "1.0.0",
+    "description": "A TMDb proxy service on Netlify Functions.",
+    "main": "functions/tmdb-proxy.js",
+    "scripts": {
+      "start": "netlify dev"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {
+      "netlify-cli": "^12.0.0"
+    }
+  }
